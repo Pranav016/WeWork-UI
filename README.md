@@ -1,6 +1,8 @@
 # WeWork-UI
 This is a remake of We work's website UI where I added a few animations using js and css libraries.
 
+*All CDNs and additional scripts are already there in the repo so it is ready to use immediately after cloning.
+
 This website UI is not yet responsive. I have'nt added any media queries yet and still been able to achieve a considerable amount of responsivness due to bootsrap classes.
 
 Bugs to be fixed for responsivness:-
