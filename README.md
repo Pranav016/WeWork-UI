@@ -14,4 +14,5 @@ Planning on adding new features of login logout to this or the next project.
 To get this locally on your device to work on, you can type "git clone 'HTTPS'" on your git bash to get this on your device. 
 To add repository in a particular folder you can use "git clone 'HTTPS' <folder-name>" command to add it to a particular folder.
   
- 
+ ![WeWork UI demo]
+ (demo/demo.gif)
