@@ -15,4 +15,4 @@ To get this locally on your device to work on, you can type "git clone 'HTTPS'" 
 To add repository in a particular folder you can use "git clone 'HTTPS' <folder-name>" command to add it to a particular folder.
   
  ![WeWork UI demo]
- (demo.gif)
+ (https://github.com/Pranav016/WeWork-UI/blob/master/demo/demo.gif?raw=true)
