@@ -1,0 +1,229 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+}
+    /* Navbar */
+.navbar-brand img
+{
+    height: 8vh;
+    width: 9vh;
+}
+.icon img
+{
+    height: 5vh;
+    width: 5.8vh;
+}
+
+.nav-link, .dropdown-item
+{
+    text-decoration: none;
+	margin: 0px;
+    padding:1vw;
+    font-size: 3vh;
+    font-weight: 400;
+}
+.nav-link:hover
+{
+    color:white;
+}
+.dropdown-toggle
+{
+	overflow: hidden;
+}
+.dropdown:hover>.dropdown-menu
+{
+    display: block;
+}
+.snake::after
+{
+	content: '';
+	display: block;
+	width: 0;
+	height: 0.5vh;
+	background:white;
+	transition: width 2;
+}
+.snake:hover::after
+{
+	width: 100%;
+	transition: width 0.8s;
+}
+.dropdown-item:hover
+{
+    background-color: #292b2c;
+}
+/* code applicable for all sections */
+.sect
+{
+    height: 140vh;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    object-fit: fill;
+}
+.head
+{
+    text-align: center;
+    margin-bottom: 6vh;
+    text-shadow: 1px 1px 2px white, 1px 2px 2px black;
+    font-size: 8vh;
+}
+.content
+{
+    width: 45%;
+    height: 20%;
+    margin: 20% 45%;
+    transform: translate(-50%, 0);
+    position: absolute;
+    font-size: 5vh;
+    font-weight: 500;
+    text-align: center;
+    text-shadow: 1px 2px 2px white, 2px 2px 2px black;
+}
+.content1
+{
+    width: 45%;
+    height: 20%;
+    margin: 27% 40%;
+    transform: translate(-55%, 0);
+    position: absolute;
+    font-size: 5vh;
+    font-weight: 500;
+    text-align: center;
+    text-shadow: 1px 2px 2px white, 2px 2px 2px black;
+}
+/* Section 1 */
+.s1
+{
+    background-image: url("../assets/office1.jpeg");
+}
+/* section 2 */
+.s2
+{
+    overflow-x: hidden;
+}
+.s2 p, h2, button
+{
+    margin: 2vw;
+}
+.s2 p
+{
+    font-weight: 450;
+    font-size: 2.5vh;
+}
+.s2 .card img
+{
+    height: 100%;
+    width: 100%;
+}
+.s2 .card, .s2 img
+{
+    border-radius: 3rem;
+}
+/* Section 3 */
+.s3
+{
+    background-image: url("../assets/office5.jpeg");
+}
+/* Section 4 */
+.s4 .card-group
+{
+    justify-content: center;
+    margin: 8vh 0;
+}
+.s4 .card
+{
+    border-radius: 3rem;
+    height: 72vh;
+}
+.s4 .inner
+{
+	overflow: hidden;
+}
+.s4 .inner img
+{
+    border-radius: 3rem;
+	transition: all 1.5s ease; 
+}
+.s4 .inner:hover img
+{
+	transform: scale(1.5);
+}
+/* Section 5 */
+.s5
+{
+    background-image: url("../assets/office2.jpeg");
+}
+/* Section 6 */
+.s6 .card-group .card
+{
+    box-shadow: 3px 3px 3px black;
+    margin: 5vh 3vw;
+    text-align: center;
+    height: 35vh;
+}
+/* Section 7 */
+.s7
+{
+    background-image: url("../assets/office4.jpeg");
+}
+/*  Section 8 */
+.s8 .container-fluid
+{
+    justify-content: center;
+}
+.s8 .fab
+{
+    padding: 5vw;
+    font-size: 20vh;
+}
+.fa-facebook
+{
+	color: #3b5998;
+}
+.fa-linkedin-in
+{
+	color: #0e76a8 ;
+}
+.fa-twitter
+{
+	color: #00acee;
+}
+.fa-instagram
+{
+	color: #3f729b ;
+}
+.fa-instagram:hover
+{
+	color: black;
+}
+.fa-twitter:hover
+{
+	color: black;
+}
+.fa-linkedin-in:hover
+{
+	color: black;
+}
+.fa-facebook:hover
+{
+	color: black;
+}
+/* Footer */
+footer
+{
+    height: 40vh;
+    font-size: 2rem;
+}
+footer h3, footer p,footer hr
+{
+    color: white;
+    padding:0.5rem;
+}
