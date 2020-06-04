@@ -8,6 +8,6 @@ This website UI is not yet responsive. I have'nt added any media queries yet and
 Will be updating this to the full version very soon. 
 Planning on adding new features of login logout to this or the next project.
 To get this locally on your device to work on, you can type "git clone 'HTTPS'" on your git bash to get this on your device. 
-To add repository in a particular folder you can use "git clone 'HTTPS' <folder-name>" command to add it to a particular folder.
+To add repository in a particular folder you can use "git clone 'HTTPS' 'folder-name'" command to add it to a particular folder.
   
 ![WeWork UI demo](https://github.com/Pranav016/WeWork-UI/blob/master/demo/demo.gif?raw=true)
